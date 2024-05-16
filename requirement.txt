@@ -1,0 +1,8 @@
+transformers
+torch
+torch.nn
+torch.optim
+numpy
+scipy
+librosa
+sounddevice
