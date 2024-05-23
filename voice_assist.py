@@ -29,7 +29,7 @@ def record_audio(duration=5, sample_rate=22050):
     p.terminate()
     return b''.join(frames)
 
-"""<h1>Step 5: Define a function to preprocess audio input</h1>"""
+"""Step 5: Define a function to preprocess audio input"""
 
 def preprocess_audio(audio_data):
     audio_data = np.frombuffer(audio_data, dtype=np.int16)
