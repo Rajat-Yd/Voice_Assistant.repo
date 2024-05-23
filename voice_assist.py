@@ -61,6 +61,6 @@ def main():
         response = generate_response(audio_data)
         print(f"Response: {response}")
 
-"""<h1>Step 8: Run the main function</h1>"""
+"""Step 8: Run the main function"""
 
 main()
