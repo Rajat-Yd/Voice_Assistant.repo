@@ -8,7 +8,7 @@ import librosa
 import pyaudio
 import wave
 
-"""<h1>Step 3: Load pre-trained LLM model and tokenizer</h1>"""
+"""Step 3: Load pre-trained LLM model and tokenizer"""
 
 model_name = "facebook/wav2vec2-base-960h"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
