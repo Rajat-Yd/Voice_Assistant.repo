@@ -14,7 +14,7 @@ model_name = "facebook/wav2vec2-base-960h"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=8)
 
-"""<h1>Step 4: Define a function to record audio input</h1>"""
+"""Step 4: Define a function to record audio input"""
 
 def record_audio(duration=5, sample_rate=22050):
     print("Recording audio...")
