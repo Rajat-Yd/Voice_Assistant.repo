@@ -52,7 +52,7 @@ def generate_response(audio_data):
     response = torch.argmax(logits)
     return response
 
-"""<h1>Step 7: Create a main function to integrate everything</h1>"""
+"""Step 7: Create a main function to integrate everything"""
 
 def main():
     while True:
