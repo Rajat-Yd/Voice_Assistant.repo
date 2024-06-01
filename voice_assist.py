@@ -62,5 +62,4 @@ def main():
         print(f"Response: {response}")
 
 """Step 8: Run the main function"""
-
 main()
