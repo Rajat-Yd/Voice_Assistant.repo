@@ -37,7 +37,7 @@ def preprocess_audio(audio_data):
     audio_data = librosa.util.normalize(audio_data)
     return audio_data
 
-"""Step 6: Define a function to generate response"""
+"""Step 6: Define a function to generate response ✌️"""
 
 def generate_response(audio_data):
     inputs = tokenizer.encode_plus(
